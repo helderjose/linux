@@ -1,0 +1,12 @@
+Fedora:
+Intalação:
+Baixe o drop box .rpm no site e instale normalmente.
+
+desinstalar:
+https://www.dropbox.com/help/desktop-web/uninstall-dropbox
+
+Comandos:
+dropbox --help
+dropbox status
+dropbox stop
+dropbos filestatus  //na pasta do dropbox, exibe o status dos arquivos.

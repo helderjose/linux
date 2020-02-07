@@ -1,0 +1,8 @@
+Report a snapshot of the current processes.
+
+
+man ps
+ps --help
+
+ps aux
+ps aux | head -10

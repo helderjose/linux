@@ -1,0 +1,4 @@
+
+man dnf list
+dnf list --help
+sudo dnf list installed    //list all the installed packages

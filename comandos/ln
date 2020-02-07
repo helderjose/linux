@@ -1,0 +1,5 @@
+Criar link
+man ln
+
+ln -s TARGET
+Para criar link entre partições diferentes use -s

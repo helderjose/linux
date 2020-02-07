@@ -1,0 +1,29 @@
+https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+
+The grep command is used to search text.
+Indicado usar com xargs quando tiver muitos parâmetros, para evitar o erro "Too many arguments"
+
+
+man grep
+grep --help
+
+grep daemon /etc/passwd     //procura pela palavra daemon no arquivo /etc/passwd
+grep -i daemon /etc/passwd  //-i ignore case
+grep daemon /etc/passwd /etc/hosts      //procura pela palavra daemon nos arquivos passwd e hosts
+
+grep -r daemon /etc         //recursive, procura em todos os arquivos de /etc
+
+grep 'word' filename                //procura por word em filename
+grep 'word' file1 file2 file3       //procura por word nos arquivos file1, file2 e file3
+grep 'string1 string2'  filename
+
+ls -l | grep -i "myText"    
+ls -1 | grep -i "^S"        //lista tudo que começa com s ignorecase
+
+
+----------------------------------------
+---------- expressão regular ----------
+----------------------------------------
+https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux
+
+grep "^GNU" GPL-3.txt

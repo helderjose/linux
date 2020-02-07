@@ -1,0 +1,23 @@
+Exibe a árvore de diretório.
+Mostra a quantidade de arquivos e diretórios no final.
+
+
+man tree
+tree --help
+
+tree -d -L 1 /home
+
+
+Opções:
+-d  list directories only
+-L  qlevel, max display depth of the directory tree
+
+
+
+
+--- para baixo são palavras para ajudar na pesquisa -----
+ver a quantidade de diretorios,
+ver a quantidade de pastas,
+
+exibe a quantidade de diretorios,
+exibe a quantidade de pastas,

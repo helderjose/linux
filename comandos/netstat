@@ -1,0 +1,10 @@
+Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+
+
+Verifica se a porta está em uso, se não imprimir nada, não está em uso
+sudo netstat -pnlt | grep ':8080'
+sudo netstat -pnlt | grep ':3000'
+
+
+man netstat
+netstat --help

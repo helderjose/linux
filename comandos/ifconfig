@@ -1,0 +1,21 @@
+==============================
+========== fedora ==========
+==============================
+
+https://www.systutorials.com/137102/how-to-set-the-static-ip-address-using-cli-in-fedoracentos-linux/
+https://file.systutorials.com/file/2015-11-19-4358-interface_configuration_files.pdf
+
+
+ifconfig -a     //olhe o nome das placas
+/etc/sysconfig/network-scripts/ifcfg-NAME       //o nome do ifconfig -a ex: ifcfg-eth0
+
+
+systemctl restart network.service
+systemctl restart NeworkManager.service
+-----
+
+Reiniciar placa de rede
+ifconfig -a   // olhe o nome das plascas. Ex: lo:
+supondo que o nome da placa seja "enp3s0"
+ifconfig enp3s0 down
+ifconfig enp3s0 up

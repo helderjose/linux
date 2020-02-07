@@ -1,0 +1,9 @@
+fedora:
+sudo dnf install gnome-tweak-tool
+tweak
+https://ask.fedoraproject.org/en/question/63662/adding-and-removing-autostart-applications/
+
+
+botão minimizar janela;
+personalizar fedora;
+configuração fedora;

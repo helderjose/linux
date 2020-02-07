@@ -1,0 +1,2 @@
+matar processo pelo id
+kill -9 <numero porcesso>

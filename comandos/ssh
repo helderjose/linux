@@ -1,0 +1,21 @@
+Parar ssh
+cd
+/etc/init.d
+./ssh stop
+
+------------------------------
+---------- Fedora ----------
+------------------------------
+https://bytefreaks.net/gnulinux/fedora-25-install-start-enable-ssh-server
+
+/usr/lib/systemd/system/sshd.service
+
+nome do serviço: sshd.service
+
+sudo dnf install -y openssh-server	//instala ssh
+sudo systemctl start sshd.service	//start ssh
+sudo systemctl stop sshd.service	//stop ssh
+systemctl status sshd.service		//verifica status
+
+sudo systemctl enable sshd.service	//To configure the sshd daemon to start automatically at boot time
+sudo systemctl disable sshd.service	//To configure the sshd daemon to stop automatic initialization at boot time

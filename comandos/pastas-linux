@@ -1,0 +1,6 @@
+~/.config
+Ficam as configurações dos programas, e banco de dados de alguns programas também (como o Postman).
+Alguns programas que iniciam no boot da máquina
+
+----- ~/.config/autostart -----
+Programas que iniciam no boot do sistema (arquivo .desktop)

@@ -1,0 +1,62 @@
+https://www.hostinger.com.br/tutoriais/comandos-linux-find-e-locate/
+https://www.linode.com/docs/tools-reference/tools/find-files-in-linux-using-the-command-line/
+
+
+============================================================
+========== procurar arquivo pelo conteúdo ==========
+============================================================
+
+sudo find . -type f -print0 | xargs -0 grep -i "teste"  //Procura pela palavra teste nos arquivos a partir do diretório atual
+Explicação:
+find . -type f  //lista todos os arquivos a partir do diretório atual
+-print0     //imprime o path dos arquivos em uma única linha
+xargs -0       //coloca um espaço entre o path de cada arquivo
+grep -i "teste"     //procura pela palavra teste com ignorecase.
+
+
+============================================================
+========== procurar arquivo/diretório por nome ==========
+============================================================
+man find    //manual
+find --help
+find <startingdirectory> <opções> <termo de busca>
+
+find . -name "file-name"   // < . procura a partir do diretório atual>  < -name  procura pelo nome do arquivo >
+find . -name "file-na*"   //aceita expressão regular
+find . -iname "File-Na*"  // < -iname ignore case >
+find . -not -iname "*FiLe-Na*"   // < -not sem uma palavra específica no nome (negação) >
+find . \! -iname "*FiLe-Na*"    // < \! (negação) mesma coisa do -not >
+find . -name “*.txt”  //procura pela extensão .txt
+
+---------------------------------------------
+----- deletar arquivos/pastas pelo nome -----
+---------------------------------------------
+find . -name "meu-arquivo" -delete                  //apenas para arquivo
+find . -type d -iname "teste" -execdir rm -rf {} +  //deleta a pasta e os arquivos (sem pedir confirmação)
+find . -type d -iname "teste" -exec rm -rf {} +     //deleta a pasta e os arquivos (sem pedir confirmação)
+
+
+--------------------
+----- type -----
+--------------------
+man find e procure por -type
+-type f     //arquivo regular (ignora link simbólico entre outros)
+-type d     //directory
+
+find . -type f -empty       //Find an empty file within the current directory.
+find . -type d          //lista todos os diretórios (ocultos tbm) a partir do diretório atual.
+find . -type d -iname "directoryName"       //procura o diretório pelo nome.
+find . -type d -ls      //aplica o comando ls (ls -dils) nos diretórios encontrados. não lista o conteúdo do diretório encontrado
+
+
+--------------------
+----- print -----
+--------------------
+find . -type f -print       //imprime o path dos arquivos um por linha.
+find . -type f -print0      //imprime o path dos arquivos em uma única linha.
+
+
+-------------------------
+----- parâmetros -----
+-------------------------
+-L      //procura por symbolic links

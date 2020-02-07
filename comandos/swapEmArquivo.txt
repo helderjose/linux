@@ -1,0 +1,40 @@
+Testado em:
+Ubuntu 14.04; Fedora 26; Oracle Linux
+
+Verificar se o swap está ativo: sudo free -mh
+
+Criar arquivo swap de 1GB
+sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576
+sudo mkswap /swapfile
+abra o arquivo /etc/fstab e acrescente a seguinte linha, no final:
+/swapfile swap swap defaults 0 0
+reinicie a máquina.
+Verificar se o swap está ativo: sudo free -mh
+
+Anotações gerais:
+Para criar um swap de 512MB devo fazer 512 * 1024 = 524288, então, count=524288
+Para criar um swap de 1GB devo fazer 1024 * 1024 = 1048576, então, count=1048576
+Para criar um swap de 2GB devo fazer 2048 * 1024 = 1048576, então, count=2097152
+Para criar um swap de 3GB devo fazer 3072 * 1024 = 3145728, então, count=3145728
+Para criar um swap de 4GB devo fazer 4096 * 1024 = 4194304, então, count=4194304
+Para criar um swap de 8GB devo fazer 8192 * 1024 = 8388608, então, count=8388608
+
+Anotações de comandos usados:
+dd para criar o arquivo swap
+mkswap para configurar o arquivo swap em um arquivo ou dispositivo separado.
+
+
+http://elias.praciano.com/2014/03/como-criar-um-arquivo-swap-no-ubuntu/
+no site tem mais dicas e comando sobre swap para estudar depois.
+
+
+Esse ensina no red hat, (fiz o procedimento do Ubuntu e funcionou no red hat também).
+http://blog.fabianobento.com.br/2012/05/aumentando-area-de-swap-sem-ter-reinstalar-red-hat-instalacao-oracle-11g-r2/
+
+
+-- Desativar a swap ---
+swapoff --help
+sudo swapoff -a  // desativa todas as swaps
+
+
+sudo dd if=/dev/zero of=/swapfile bs=1024 count=8388608

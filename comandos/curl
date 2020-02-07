@@ -1,0 +1,34 @@
+curl http://wttr.in/brasilia
+
+https://curl.haxx.se/docs/httpscripting.html
+aqui tem várias dicas
+
+Download via http
+curl -o /home/linux10complica/ebook.pdf -C – https://www.linuxvoice.com/issues/016/Linux-Voice-Issue-016.pdf
+-o renomeia o arquivo.
+-C permite que o download seja continuado até mesmo se pausado (CTRL + C e retomado se executado o mesmo comando novamente.
+
+
+----- Gerenciador de arquivos ftp -----
+curl ftp://ftp.debian.org/debian/
+curl ftp://ftp.debian.org/debian/dists/
+
+Para fazer o download, use o mesmo processo como feito no HTTP (download do arquivo README do FTP do repositório do Debian):
+curl -O ftp://ftp.debian.org/debian/README
+
+
+Com autenticação
+curl -u usuario:senha -O ftp://ftp.protegido.com/files/exemplo.txt
+
+
+upload de arquivo
+curl -u usuario:senha -T /home/linux10complica/Documentos/teste.txt ftp://ftp.meuservidor.com
+
+
+
+----- verificar se o site está disponível -----
+curl -Is https://www.twitter.com -L | grep HTTP/
+
+
+----- expandir url encurtada -----
+curl -sIL http://goo.gl/zdhYYP | grep ^Location;

@@ -1,0 +1,24 @@
+exemplos na pasta: shellScript
+
+https://shapeshed.com/unix-cut/
+
+man cut
+cut --help
+
+----- -b, byte position -----
+Cut by byte position.
+
+echo 'baz' | cut -b 2
+a
+echo 'baz' | cut -b 1-2
+ba
+echo 'baz' | cut -b 1,3
+bz
+
+
+
+
+-------- palavras para pesquisa -------
+cortar string
+string cut
+substring

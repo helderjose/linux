@@ -1,0 +1,4 @@
+https://sqlitebrowser.org/
+abrir arquivo sqlite
+
+sudo dnf install sqlitebrowser

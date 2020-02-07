@@ -1,0 +1,47 @@
+Testar instalação
+https://get.adobe.com/flashplayer/about/
+
+--------------------
+----- Fedora -----
+--------------------
+----- firefox -----
+https://get.adobe.com/flashplayer/
+Baixe o .rpm do flash e execute
+dnf install pacoteFlash.rpm
+obs: só instala no firefox assim.
+Evitar fazer essa instalação, o flash não funciona muito bem assim.
+
+remover flash instalado dessa maneira: sudo dnf remove flash-plugin
+----------------------------------------------
+
+fedora 29
+crie a pasta
+~/.mozilla/plugins
+coloque o arquivo libflashplayer.so nela.
+Uso essa instalação.
+-----------------------------------
+
+Testar: colocar o arquivo do flash aqui:
+/usr/lib64/mozilla/plugins
+/usr/lib/mozilla/plugins
+
+------- chromium -------
+Nao funcionou
+https://fedoraproject.org/wiki/Chromium
+https://get.adobe.com/flashplayer/otherversions/
+/usr/lib64/chromium-browser/PepperFlash
+step1: Linux (64bit)
+step2: FP ... for Linux 64-bit (.tar.gz)- PPAPI
+extraia na pasta: /usr/lib64/chromium-browser/PepperFlash
+
+não funcionou
+sudo dnf install flash-player-ppapi-26.0.0.151-release.x86_64.rpm
+
+----- chrome -----
+Não funcionou
+baixe o flash rpm usando o chrome.
+instale com dnf
+
+
+----- observações -----
+reating a symbolic link pointing to the Flash Player plugin location: /usr/lib/adobe-flashplugin/libpepflashplayer.so ==> /usr/lib64/flash-plugin/libpepflashplayer.so

@@ -1,0 +1,14 @@
+http://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation
+
+List directory contents
+
+man ls
+ls --help
+
+ls
+ls -1
+ls -l
+
+ls -a   //<all> inclui os arquivos ocultos tbm
+ls -ld */       //lista apenas os diretórios, parece que não lista de outros usuários.
+ls -l | grep "^d"   //lista apenas os diretórios.

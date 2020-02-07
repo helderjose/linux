@@ -1,0 +1,3 @@
+----- fedora -----
+sudo dnf install lm_sensors lm_sensors-sensord
+sudo dnf search sensors

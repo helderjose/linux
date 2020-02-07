@@ -1,0 +1,3 @@
+> redireciona a saída
+
+ls /home > /tmp/log.txt    //Criar o arquivo log.txt com o conteúdo do comando ls /home

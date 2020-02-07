@@ -1,0 +1,8 @@
+Output the last part of files.
+
+tail /etc/hosts
+tail -n 2 /etc/hosts
+
+
+Option:
+-n, --lines     output the last NUM lines...

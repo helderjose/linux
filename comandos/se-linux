@@ -1,0 +1,7 @@
+====================
+===== fedora =====
+====================
+sestatus
+- Desabilitar se
+https://www.tecmint.com/disable-selinux-temporarily-permanently-in-centos-rhel-fedora/
+Reinicie o pc, logoff não resolve.

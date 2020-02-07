@@ -1,0 +1,36 @@
+https://linux.die.net/man/1/vim
+
+
+vi		abre o editor
+esc :q!		sai do editor
+esc :wq     escreve as alterações e sai
+vi nome-do-arquivo	cria um arquivo e já inicia sua edição.
+
+
+Ao entrar no ambiente VI, você ainda não estará operando no modo de edição. Para iniciar o modo de edição, pressione a telac i. Para said do modo de edição, pressione a telac ESC.
+
+Dentro  do VI, utilize os seguintes comandos (apenas o básico):
+i	Entra no modo de edição.
+ESC	Sai do modo de edição.
+
+
+Ainda dentro do VI, fora do modo de ediçãi, utilize:
+dd		remove uma linha inteira.
+/palavra	Procura pela palavra. Pode-se usar um gragmento da palavra ou expressão.
+:q!		Retorna para o shel sem salvar.
+:wq		Salva e retorna para o shell.
+:qa!		Abandon all changes and exit Vim
+
+
+--- copiar e colar ----
+http://vim.wikia.com/wiki/Copy,_cut_and_paste
+esq	sair do modo de edição
+* posicione o cursor onde você quer começar a copiar.
+
+v	to selec characters
+V	to select whole lines
+ctrl + v to select rectangular blocks
+
+ctrl + shift + v para colar
+
+

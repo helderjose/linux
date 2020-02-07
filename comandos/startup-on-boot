@@ -1,0 +1,12 @@
+inicialização de programas.
+
+* tire a permissão de leitura do arquivo .desktop da pasta autstart ou init.d
+
+/etc/init.d
+~/.config/autostart
+
+
+----- anotações .../autostart -----
+
+os arquivos que listei estavam com permissão 664
+tirei a permissão de leitura, 200

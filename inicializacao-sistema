@@ -1,0 +1,11 @@
+Executar comandos durante a inicialização do sistema.
+/etc/init.d/rc.local		Executa imediatamente após o sistema ir ao ar.
+/etc/rc.local			Mesmo do anterior.
+/etc/profile			Executa após o login do usuário. Executa para todos usuários.
+~/.profile			Usuário específico.
+/etc/bash.bashrc		Executa quando adentramos em determinado ambiente.
+
+
+
+O sufixo rc no nome de arquivos e diretórios significa "run control" e está associado a programas
+e rotinas que têm alguma influência na inicialização do sistema ou na operação de login.

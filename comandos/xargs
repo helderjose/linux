@@ -1,0 +1,11 @@
+A função primordial é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções.
+
+O xargs também impede o erro "Too many arguments" indicando um estouro da pilha de execução do grep.
+
+
+man xargs
+xargs --help
+
+
+sudo find . -type f -print0             //lista os arquivos e coloca os paths em uma única string
+find . -type f -print0 | xargs -0       //lista os arquivos e coloca um espaço entre os paths

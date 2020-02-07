@@ -1,0 +1,16 @@
+https://docs.fedoraproject.org/en-US/Fedora/25/html/System_Administrators_Guide/ch-Configuring_the_Date_and_Time.html
+
+timedatectl
+
+
+timedatectl set-time HH:MM:SS   //ajusta o relógio
+timedatectl set-time 22:50
+
+
+
+
+
+palavras para pesquisa:
+mudar hora fedora.
+ajustar hora fedora.
+ajustar relógio fedora.

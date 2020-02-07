@@ -1,0 +1,8 @@
+Link simbólico
+ln -s target linkName
+
+Renomear link simbólico
+mv linkName linkNameNew
+
+Remover link simbólico
+rm linkName

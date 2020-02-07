@@ -1,0 +1,16 @@
+no link tem explicação e exemplos.
+No link tem exemplo de como criar um service
+https://docs.fedoraproject.org/quick-docs/en-US/understanding-and-administering-systemd.html
+
+Olhar mais exemplo no arquivo "ssh"
+
+
+/etc/systemd/system
+
+man systemctl		//details
+systemctl --help
+systemctl start foo	//Activate a service immediately
+systemctl stop foo	//Deactivate a service immediately
+systemctl restart foo	//Restart a service
+systemctl restart foo	//Restart a service
+systemctl status foo	//Show the status of a service including if it is running or not
