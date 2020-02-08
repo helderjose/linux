@@ -1,0 +1,3 @@
+remover openjdk
+sudo rpm -aq | grep openjdk | sudo xargs yum -y remove
+
