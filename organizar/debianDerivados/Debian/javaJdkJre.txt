@@ -9,7 +9,6 @@ ver se tem java instalado. (pode ter o open jdk)
 java -version
 
 desinstalar open jdk
-sudo apt-get purge openjdk-\*
 
 crie a seguinte pasta
 sudo mkdir -p /usr/local/java

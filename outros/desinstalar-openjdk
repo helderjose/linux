@@ -1,0 +1,18 @@
+--- 2020 ---
+Fedora
+rpm -aq | grep openjdk | sudo xargs yum -y remove
+
+
+
+
+----- versao antiga -----
+-- 2018 --
+Fedora
+desinstalar open jdk
+sudo apt-get purge openjdk-\*
+
+
+
+palavras para pesquisa:
+remover openjdk
+desinstalar openjdk
