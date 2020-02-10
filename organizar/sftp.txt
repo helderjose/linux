@@ -1,0 +1,2 @@
+porta 21 ou 22
+No blackout estou usando a 22 com filezzila

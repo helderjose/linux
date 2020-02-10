@@ -1,0 +1,58 @@
+fazer logout
+# logout
+# exit
+$ logou
+$ exit
+
+desligar
+halt
+shutdown -h now
+
+reiniciar reboot
+shutdown -r now
+reboot
+ctrl alt del
+
+abrir outro terminal alt +f2..
+
+------------------------
+ambiente gráfico
+
+para ter um ambiente gráfico é nessesário instalar um servidor gráfico e depois um gerenciador gráfico
+ambientes: openbox (simples), kde gnome
+
+ir para um terminal shell puro a partir do servidor gráfico, ctrl + alt + <terminal>   ex: ctrl alt f3
+ir para servidor gráfico a partir do shell puro alt f7 ou ctrl alt f7
+---------------------------
+
+obter ajuda no sistema
+apropos ext4
+
+
+criar usuário
+adduser teste
+
+alterar senha do usuário (inclusive do root)
+passwd login_do_usuario
+somente o root pode alterar a senha de qualquer usuário, o usuário comum só altera a sua própria senha
+
+remover usuário do sistema
+userdel login_do_usuario  (remove o usuário mas mantém seus diretórios, dados etc)
+userdel -r login_do_usuario (remove o usuário e seus diretóris, dados etc)
+
+editor de texto vi
+ler o arquivo sobre vi
+
+cat
+fica preso e o prompt some ( ctrl c para voltar o prompt)
+
+ver as variáveis do sistema
+# set
+$ set
+
+ver a data no terminal
+date
+LANG=en date
+
+
+Excluir traduções desnecessárias, ver pág 253

@@ -1,0 +1,19 @@
+instalar o mc edit
+apt-get update  (aguarde a atualização)
+apt-get install mc  (instala o mc edit)
+
+criar ou editar um arquivo
+mcedit nome_do_arquivo
+o menu na parte de baixo
+1 pressione f1
+2 pressione f2 e assim por diante.
+f11 menu de usuário
+f12 salvar como (mudar o nome do arquivo)
+f15 Inserir arquivo
+f17 procurar novamente
+obs: shift f5 para f15
+
+abrir um arquivo existente
+mcedit nome_do_arquivo ou caminho_do_arquivo/nome_arquivo
+
+ver mais dicas pág 243 livro Descobrindo o Linux

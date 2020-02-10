@@ -1,0 +1,2 @@
+se a imagem ficar maior que o monitor usar o seguinte comando
+install vga=771

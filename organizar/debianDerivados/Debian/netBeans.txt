@@ -1,0 +1,3 @@
+Na instalação do netBeas, se aparecer um aviso de que não encontra a jvm use o seguinte comando de exemplo.
+sudo ./netbeans-6.9-ml-java-linux.sh --javahome pt/x64/jdk1.6.0_45/
+mude o que for necessário para sua instalção.

@@ -1,0 +1,9 @@
+empacotadores
+tar
+-----------------
+compactadores
+gzip
+unrar - apt-get install unrar
+xarchiver é uma interface gráfica para compactadores
+apt-get install xarchiver
+---------------

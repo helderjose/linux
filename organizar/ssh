@@ -1,0 +1,9 @@
+https://www.avajava.com/tutorials/lessons/how-do-i-start-the-ssh-server-on-fedora.html
+
+
+chaves: /home/helder/.ssh
+
+fedora
+service sshd status
+service sshd start
+service sshd stop

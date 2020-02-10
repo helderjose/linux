@@ -1,0 +1,71 @@
+página 291
+
+ver que distribuição está instalada
+cat /etc/issue
+
+apt-get update
+Atualiza a lista de pacotes disponíveis do Debian. Deve ser executado, pelo menos uma vez por dia, sempre que for instalar um pacote ou atualizar o sistema.
+
+apt-get upgrade
+Atualiza o sistema, a não ser que, para isso, tenha de instalar um novo pacote ou remover um antigo. Nesse caso, deve-se utilizar dit-upgrade em vez de upgrade. apt-get upgrade não atua sobre pacotes que causerm a adição ou remoção de outros.
+-------------------------------------
+
+++++++++++++++++++++++++++++++
+criar pasta, criar diretório.
+mkdir nomePasta
+
+renomear arquivos ou diretórios
+mv <nomeAtual> <novoNome>    (mv também serve para mover arquivos ou diretórios)
+
+++++++++++++++++++++++++++++++
+
+
+****************** compactar arquivo, descompactar arquivo ******************
+  compactando com gzip
+só compacta arquivo empacotado.
+gzip <nomeArquivo>
+
+  descompactando arquivo .gz
+gunzip <nomeArquivo.tar.gz>
+
+  compactar com apenas um comando, empacotar com tar e compactar com gzip com um comando
+tar -cvzf <nomeArquivoFinal> <origem>
+ descompactar com apenas um comando, desempacotar com tar e descompactar com gunzip com um comando
+tar -xvzf <arquivo>
+
+****************** fim compactar arquivo, descompactar arquivo ******************
+
+************************************************
+deletar pasta e arquivo, apagar (wipe també é usado para apagar, ver página 326)
+pág. 325
+rm
+Remove diretórios vazios ou não e arquivos
+-i solicita confirmação.
+-r (recursivo) Remove diretórios, recursimvamente, sem pedir confirmação.
+-f Remove arquivos sempedir confirmação.
+
+
+rm nomeArquivo . Apaga arquivo sem pedir confirmação. (esse não apaga pasta).
+rm -i nomeArquivo . Apaga arquivo, pede confirmação. (não apaga pasta).
+rm -ir nomePasta . Apaga a pasta pedindo confirmação. obs: pede confirmação para todos os arquivos e sub diretórios.
+************************************************
+
+*************** partição, hd ***************
+listar partições, listar partição, particionamento de disco e pendrive
+
+fdisk (deve ser usado como root)
+fdisk -l lista os hds(e partições) e pendrive
+
+formatar disco com fdisk
+fdisk /dev/disco  exemplo fdisk /dev/fdh
+
+p para ver as partições do dispositivo selecionado.
+d para apagar uma partição
+n criar uma nova partição
+t mudar o tipo de sistema de uma partição. l para listar os códigos dos tipos de partições
+w para gravar as alterações no dispositivo (se não usar, não será alterado)
+
+
+*************** fim partição, hd ***************
+
+

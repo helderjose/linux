@@ -1,0 +1,5 @@
+dnf -y update
+dnf install kernel-devel dkms kernel-headers
+dnf -y install gcc automake make kernel-headers kernel-devel perl
+
+swap em arquivo.

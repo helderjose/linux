@@ -1,0 +1,11 @@
+alt f4
+para ver o que está ocorrendo
+
+alt f1
+volta para a tela principal do instalador
+
+
+Ser for instalar o Linux em notebook ou laptop acesse
+http://www.linux-laptop.net
+
+criando um swap em arquivo pág 254 255

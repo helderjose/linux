@@ -1,0 +1,3 @@
+Verifica se a porta está em uso, se não imprimir nada, não está em uso
+sudo netstat -pnlt | grep ':8080'
+

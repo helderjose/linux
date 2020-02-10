@@ -1,0 +1,19 @@
+entrar no terminal
+ícone ubuntu pesquisar por term
+ctrl+alt+f1
+entrar no ambiente gráfico
+ctrl+alt+f7  ou  alt+f7
+----------------------------------
+
+remover programas da inicialização.
+Para isso, habilite a apresentação dos ítems ocultos no menu executando no terminal o comando:
+sudo sed -i "s/NoDisplay=true/NoDisplay=false/g" /etc/xdg/autostart/*.desktop
+Vá em Aplicativos se Sessão no menu do Ubuntu e remova as entradas desnecessárias para a sua configuração. 
+-------------------------------------
+
+trocar de ambiente gráfico
+encerre a sessão, clique no logo ubuntu para escolher.
+-----------------------------------
+
+instalar outros ambientes gráficos mais leve Gnome-Classic
+sudo apt-get install gnome-session-fallback

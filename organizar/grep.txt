@@ -1,0 +1,5 @@
+grep -rl palavraDesejada ./
+Pesquisa na pasta atual e nos sub-diretórios.
+
+-r (recursivo)
+./ pasta atual

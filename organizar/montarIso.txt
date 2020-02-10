@@ -1,0 +1,8 @@
+Crie uma pasta para armazenar os arquivos.
+sudo mkdir /mnt/iso
+
+Localize sua imagem ISO e monte-a na pasta criada.
+sudo mount -o loop /caminho/pasta/suaimagem.iso /mnt/iso
+
+Para desontar a imagem.
+sudo umount /mnt/iso

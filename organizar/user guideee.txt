@@ -1,0 +1,7 @@
+variáveis de ambiente linux
+no prompt
+env = lista todas as variáveis de ambiente do sistema, do usuário logado.
+
+imprimir o valor de uma variável de ambiente
+echo $NOME_VARIAVEL
+echo $PATH

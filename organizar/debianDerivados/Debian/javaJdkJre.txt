@@ -1,0 +1,61 @@
+intale o navegador primeiro.
+
+testar java online
+http://www.java.com/en/download/installed.jsp
+
+java (arquivo .bin)
+
+ver se tem java instalado. (pode ter o open jdk)
+java -version
+
+desinstalar open jdk
+sudo apt-get purge openjdk-\*
+
+crie a seguinte pasta
+sudo mkdir -p /usr/local/java
+
+mova o arquivo de instalação do java para
+/usr/local/java
+
+Dê permissão de execução para o arquivo .bin
+sudo chmod +x nomeArquivo.bin
+
+Execute o arquivo.
+sudo ./nomeArquivo.bin
+
+Apos "extrair" os arquivos, o arquivo .bin não e mais necessário, você pode apagá-lo
+rm nomeArquivo.bin
+
+declarar variável de ambiente JAVA_HOME e PATH
+no arquivo /etc/profile
+no terminal logado como root
+nano /etc/profile
+adicione as seguinte linhas no fim do arquivo
+# variaveis ambiente colocadas na mao
+export JAVA_HOME=/usr/local/java/jdk1.6.0_45
+export PATH=$PATH:$JAVA_HOME/bin
+
+crtl+o para salvar o arquivo no nano.
+
+faça logof
+
+
+
+configurar java no firefox
+como root vá até a pasta "mozilla",
+/usr/lib/mozilla/plugins
+/usr/local/mozilla
+/usr/lib/firefox-addons/plugins (ubuntu 16)
+
+na pata mozilla crie a pasta "plugin",
+mkdir /usr/lib/mozilla/plugins
+mkdir /usr/local/mozilla/plugin
+
+como root acesse a pasta plugin e crie um link
+ln -s /usr/local/java/jdk1.6.0_45/jre/lib/i386/libnpjp2.so
+ou exemplo: jre1.7.0_60/lib/amd64/libnpjp2.so
+reinicie o navegador e teste o java
+http://www.java.com/en/download/installed.jsp
+
+
+http://www.java.com/pt_BR/download/help/enable_browser_ubuntu.xml

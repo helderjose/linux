@@ -1,0 +1,8 @@
+explicação na pág 252
+apt-get install ethtool less mc ntpdate tcpdump
+
+adição das seções contrib e non-free no sistema apt
+pág 253
+
+servidor gráfico (interface gráfica)
+pág 546

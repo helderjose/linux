@@ -1,0 +1,3 @@
+já fiz e funcionou
+
+http://www.edivaldobrito.com.br/recuperando-o-boot-grub-ubuntu-depois-de-instalar-o-windows/

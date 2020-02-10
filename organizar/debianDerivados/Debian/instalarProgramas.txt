@@ -1,0 +1,12 @@
+nomeArquivo.sh
+sudo chmod +x nomeArquivo.sh
+sudo ./nomeArquivo.sh
+++++++++++++++++++++++++++++++++
+
+nomeArquivo.bin
+sudo chmod +x nomeArquivo.bin
+sudo ./nomeArquivo.bin
++++++++++++++++++++++++++++++++++
+
+executar arquivo .jar
+java -jar arquivo.jar

@@ -1,0 +1,6 @@
+terminator
+https://github.com/robbyrussell/oh-my-zsh (plugins para batch e terminator)
+https://github.com/bhilburn/powerlevel9k
+
+oh-my-zsh
+

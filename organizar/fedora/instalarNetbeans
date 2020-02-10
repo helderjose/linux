@@ -1,0 +1,2 @@
+Se tiver a java_home e mesmo assim der erro, execute:
+sudo ./netbean....sh --javahome /opt/jdk-8u144-linux-x64/jdk1.8.0_144

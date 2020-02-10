@@ -1,0 +1,5 @@
+o nano já vem com o Debian
+
+nano nome_arquivo
+
+ver mais pág 243

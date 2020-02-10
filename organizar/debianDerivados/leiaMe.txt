@@ -1,0 +1,13 @@
+instalar .rpm no ubuntu
+sudo apt-get install alien
+
+sudo alien pacote.rpm
+sudo dpkg -i pacote.deb
+sudo dpkg -i pacote.deb
+
+
+outros comandos
+sudo -v --to-deb pacote.rpm
+
+
+obs: usei no oraclexe rpm para deb, demorou um pouco mas converteu.

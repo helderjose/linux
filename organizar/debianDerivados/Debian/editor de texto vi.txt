@@ -1,0 +1,16 @@
+editor de texto vi
+vi
+para sair pressione esc e digite :q
+
+criar um arquivo e iniciar sua edição
+vi nome_do_arquivo
+
+dentro do vi utilize os seguinte comandos
+i  entra no modo de edição
+esc  sai do modo de edição
+
+fora do modo de edição use os comandos.
+dd  remove um alinha inteira
+/palavra    procura pela palavra. pode-se usar um fragmento de palavra ou expressão.
+:q!  retorna para o shell sem salvar
+:wq   salva e retorna para o shell

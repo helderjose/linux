@@ -1,0 +1,4 @@
+~/.profile
+~/.bash_profile  (fedora, para o usuário)
+~/.bashrc
+/etc/profile (todo os usuário)

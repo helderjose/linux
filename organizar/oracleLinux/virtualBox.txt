@@ -1,0 +1,9 @@
+Para instalar o Extension Pack (guest additions)
+yum install kernel-uek-devel-3.8.13-55.1.5.el6uek.x86_64
+depois instale o guest additions.
+
+System -> Administration -> Users and Groups
+Selecione seu usuário -> Properties -> Groups
+selecione o grupo vboxsf
+
+Talvez seja necessário reiniciar o computador.

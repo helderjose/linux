@@ -1,0 +1,9 @@
+Arquivos com extensão .desktop
+
+https://freedesktop.org/wiki/Specifications/desktop-entry-spec/
+
+desktop-file-	[+ tab, exibe todas opções]
+desktop-file-validate --help	[exibe ajuda]
+
+
+desktop-file-validate arquivo.desktop    [valida o arquivo, mostra os erros no terminal]

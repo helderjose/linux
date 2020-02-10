@@ -1,0 +1,3 @@
+mirror estados unidos do debian
+
+http://ftp.us.debian.org/

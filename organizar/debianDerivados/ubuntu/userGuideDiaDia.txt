@@ -1,0 +1,17 @@
+Palavas chaves: Remover programas da inicialização, Aplicativos de sessão, inicializar.
+Testado no Ubuntu 14.04
+Pesquise no dash por: aplicativos de sessão ou Startup Applications
+Feche o Startup Application e sexecute o seguinte comando.
+cd /etc/xdg/autostart
+ sudo sed --in-place 's/NoDisplay=true/NoDisplay=false/g' *.desktop
+Abra o Startup Applications novamente e veja que a lista aumentou.
+Use o seguinte comando para ocultar os aplicativos de inicialização do sistema
+cd /etc/xdg/autostart
+ sudo sed --in-place 's/NoDisplay=true/NoDisplay=true/g' *.desktop
+
+Arquivo que é alterado: /etc/xdg/autostart/indicator-session.desktop
+
+links:
+http://sejalivre.org/como-remover-aplicativos-inicio-automatico-ubuntu/
+http://elias.praciano.com/2014/06/como-tirar-aplicativos-do-inicio-automatico-no-ubuntu/
+http://elias.praciano.com/2014/06/aplicativos-de-sessao-no-ubuntu-quais-itens-podem-ser-desativados/

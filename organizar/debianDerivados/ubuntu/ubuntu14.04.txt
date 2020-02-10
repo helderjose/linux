@@ -1,0 +1,2 @@
+abilitar vários desktops, abilitar várias áreas de trabalhos.
+Appearence->Behavior->Enable workspaces
