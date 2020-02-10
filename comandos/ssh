@@ -19,3 +19,8 @@ systemctl status sshd.service		//verifica status
 
 sudo systemctl enable sshd.service	//To configure the sshd daemon to start automatically at boot time
 sudo systemctl disable sshd.service	//To configure the sshd daemon to stop automatic initialization at boot time
+
+
+
+---------- 2018 ----------
+apt-get install ssh

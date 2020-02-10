@@ -1,9 +1,0 @@
-Montar partição.
-
-http://www.leonardoborda.com/blog/how-to-add-a-new-partition-to-the-fstab-file/
-
-
-
-testado fedora
-sudo blkid
-

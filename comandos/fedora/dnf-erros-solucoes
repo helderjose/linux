@@ -1,0 +1,3 @@
+----- Erros e soluções -----
+Last metadata expiration check
+execute: sudo dnf clean metadata

@@ -21,14 +21,14 @@ Next, to add and enable new repository, run the following command.
 $ sudo dnf config-manager --add-repo /etc/yum.repos.d/grafana.repo
 
 To enable or disable a DNF repository, for instance while trying to install a package from it, use the --enablerepo or --disablerepo option.
-$ sudo dnf --enablerepo=grafana install grafana  
+$ sudo dnf --enablerepo=grafana install grafana
 OR
-$ sudo dnf --disablerepo=fedora-extras install grafana  
+$ sudo dnf --disablerepo=fedora-extras install grafana
 
 You can also enable or disable more than one repositories with a single command.
-$ sudo dnf --enablerepo=grafana, repo2, repo3 install grafana package2 package3 
+$ sudo dnf --enablerepo=grafana, repo2, repo3 install grafana package2 package3
 OR
-$ sudo dnf --disablerepo=fedora, fedora-extras, remi install grafana 
+$ sudo dnf --disablerepo=fedora, fedora-extras, remi install grafana
 
 https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/
 
@@ -41,3 +41,19 @@ estiver instalando a 6.0.14 remova a mais velha
 sudo dnf remove VirtualBox-6.0-6.0.10_132072_fedora29-1.x86_64  // remove a versão velha
 sudo dnf clean packages  // limpa os pacotes
 sudo dnf install VirtualBox  // instala a versão mais nova de acordo com o S.O.
+
+
+
+
+/etc/dnf/dnf.conf
+edit /etc/dnf/dnf.conf and add/change this line : metadata_expire=0 (temporary solution)
+
+
+Instalar programas rpm. (Se der erro, abra a pasta .rpm para ver se tem outro arquivo .rpm).
+
+dnf instal pacote.rpm	(instala um programa .rpm)
+dnf upgrade
+dnf clean metadata	(remove cached data).
+
+
+

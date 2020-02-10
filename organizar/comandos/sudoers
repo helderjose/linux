@@ -1,6 +1,0 @@
-/etc/sudoers
-
-su -
-usermod someUser -a -G wheel
-
-Com isso pode usar sudo; ex: sudo dnf install pacote.rpm

@@ -1,8 +1,0 @@
-Muda o dono ou o grupo do arquivo.
-
-chown usuário:grupo arquivo
-Onde "usuário" seria o usuário desejado, "grupo" o grupo desejado, e "arquivo" o arquivo desejado.
-
-Exemplo:
-sudo chown helder:helder arquivo
-nesse caso eu estava logado com o usuário helder, nas propriedades ficaram, owner: Me, group: helder.
