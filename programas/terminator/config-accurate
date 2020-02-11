@@ -1,0 +1,483 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      command = ""
+      directory = ""
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[New Layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1366, 704
+      title = accurate@localhost: /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/diagnostic-new
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a, 9a01ed6d-17ab-4e57-91ce-c4084d1dde23
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 331
+      ratio = 0.501515151515
+      type = VPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 164
+      ratio = 0.5
+      type = VPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 330
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 89c539fb-628b-4bcd-8fbb-d5a07f7df6e1
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 5c442c6e-b556-43a4-beb9-08b9040c29e4
+    [[[terminal8]]]
+      command = ""
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = 9424bce3-0acb-406c-95ce-a28532774a93
+    [[[terminal9]]]
+      order = 1
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = 9a01ed6d-17ab-4e57-91ce-c4084d1dde23
+  [[accweb]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1280, 987
+      title = accurate@blackout: /dados/projetos/git.acclabs.com.br/accweb
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 98b34b2f-2ff5-45fa-8981-4bf73cbd6eee, caa57be2-63be-4de3-9bc2-b1c035b5fde5
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 472
+      ratio = 0.500530222694
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 592
+      ratio = 0.627783669141
+      type = VPaned
+    [[[child6]]]
+      order = 0
+      parent = child5
+      position = 281
+      ratio = 0.47870528109
+      type = VPaned
+    [[[terminal3]]]
+      command = cd /dados/projetos/git.acclabs.com.br/accweb/accweb-app && echo 'ng serve --host accweb-app --disable-host-check' && echo 'ng serve --prod';zsh
+      directory = true
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 98b34b2f-2ff5-45fa-8981-4bf73cbd6eee
+    [[[terminal4]]]
+      command = cd /dados/projetos/git.acclabs.com.br/accweb && echo 'git pull origin develop'; zsh
+      directory = ""
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 6946f04e-e3cc-4a4d-a76f-e8c453e8efdd
+    [[[terminal7]]]
+      command = cd /dados/projetos/git.acclabs.com.br/accweb/accweb-api && echo 'mvn clean install -DskipTests spring-boot:run';zsh
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 428c053c-e1a0-482d-a494-c8d1e1271d19
+    [[[terminal8]]]
+      command = cd /dados/projetos/git.acclabs.com.br/accweb/accweb-connectors && echo 'mvn clean install -DskipTests spring-boot:run';zsh
+      directory = ""
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 6ea75a10-4a3b-4e59-9769-ade90f04c8ee
+    [[[terminal9]]]
+      command = cd /dados/projetos/git.acclabs.com.br/accweb/accweb-core && echo 'mvn clean install -DskipTests spring-boot:run';zsh
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = caa57be2-63be-4de3-9bc2-b1c035b5fde5
+  [[brinks]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1280, 987
+      title = accurate@blackout: /dados/projetos/gitlab.accesstage.com.br/brinks/brinks-front
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 6183955d-f654-48db-ba6d-dd6322a5997d, 22178be0-550e-4b8f-b751-fb3a63044750
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 472
+      ratio = 0.500530222694
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/brinks/brinks-front && echo 'npm run httpserver';zsh
+      directory = true
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 6183955d-f654-48db-ba6d-dd6322a5997d
+    [[[terminal4]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/brinks/brinks-model && echo 'mvn clean install';zsh
+      directory = ""
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = dc8007cb-5b17-48a3-ac26-819cf5b06623
+    [[[terminal5]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/brinks/brinks-portal && echo 'mvn clean install spring-boot:run -Dspring.profiles.active=develop';zsh
+      directory = ""
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 22178be0-550e-4b8f-b751-fb3a63044750
+  [[diagnostic]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 863
+      title = accurate@localhost: /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/diagnostic-new
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 429
+      ratio = 0.5
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 214
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic;zsh
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a
+    [[[terminal4]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic/net-uno && echo 'npm run server:start';zsh
+      directory = ""
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 89c539fb-628b-4bcd-8fbb-d5a07f7df6e1
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic/net-uno && echo 'npm run build';zsh
+      directory = ""
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 5c442c6e-b556-43a4-beb9-08b9040c29e4
+  [[diagnostic-new]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1366, 704
+      title = accurate@localhost: /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/diagnostic-new
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a, 9424bce3-0acb-406c-95ce-a28532774a93
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 331
+      ratio = 0.501515151515
+      type = VPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 164
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/diagnostic-new;zsh
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/diagnostic-new && echo 'npm run serve';zsh
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 89c539fb-628b-4bcd-8fbb-d5a07f7df6e1
+    [[[terminal6]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/mocks && echo 'npm run start';zsh
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 5c442c6e-b556-43a4-beb9-08b9040c29e4
+    [[[terminal7]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/shared-components && echo 'npm run serve';zsh
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 9424bce3-0acb-406c-95ce-a28532774a93
+  [[sth]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1280:27
+      size = 1600, 836
+      title = accurate@blackout: /dados/projetos/git.acclabs.com.br/sth/newsth-frontend/interface
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 1aecfcb7-6741-4d3f-8de6-26597ac18774, 6b4ec844-b1ce-44ae-bf99-125e401cad14
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      directory = /dados/projetos/git.acclabs.com.br/sth/newsth-frontend/interface
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 1aecfcb7-6741-4d3f-8de6-26597ac18774
+    [[[terminal3]]]
+      directory = /dados/projetos/git.acclabs.com.br/sth/newsth-backend
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 6b4ec844-b1ce-44ae-bf99-125e401cad14
+  [[tenda]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1280:27
+      size = 1600, 836
+      title = accurate@blackout: /dados/projetos/gitlab.accesstage.com.br/tenda-dashboard/tenda-servicos
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 438d08c7-2f9c-4964-bf26-e8aacd6f1216, 38ab72b1-c759-435c-99c3-bfca5c4c397f
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      directory = /dados/projetos/gitlab.accesstage.com.br/tenda-dashboard/tenda-portal
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 438d08c7-2f9c-4964-bf26-e8aacd6f1216
+    [[[terminal3]]]
+      directory = /dados/projetos/gitlab.accesstage.com.br/tenda-dashboard/tenda-servicos
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 38ab72b1-c759-435c-99c3-bfca5c4c397f
+  [[trustion]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1280:27
+      size = 1600, 836
+      title = accurate@blackout: /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-model
+      type = Window
+    [[[child1]]]
+      active_page = 1
+      labels = None, None
+      last_active_term = 4cba3c5d-c03b-4c72-8a6d-283fde8dab52, 498651e8-3b0b-4b1c-91d4-68374ecdb20a
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 396
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-portal && echo 'npm run httpserver';zsh
+      directory = true
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 4cba3c5d-c03b-4c72-8a6d-283fde8dab52
+    [[[terminal4]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-model && echo 'mvn clean install';zsh
+      directory = false
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 498651e8-3b0b-4b1c-91d4-68374ecdb20a
+    [[[terminal5]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-servicos && echo 'mvn clean install spring-boot:run -Dspring.profiles.active=develop';zsh
+      directory = false
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 06432223-c15a-452e-a8de-3de14026be1a
+  [[volks]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1280, 987
+      title = accurate@blackout: ~
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 53269d43-9f23-4f42-a4f9-0825027650a1, da986a09-3f5a-4f3f-a603-777a06ce9b77
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 472
+      ratio = 0.500530222694
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 472
+      ratio = 0.500530222694
+      type = VPaned
+    [[[terminal3]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/banco-volks-dashboard/volks-front ; zsh
+      directory = true
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 53269d43-9f23-4f42-a4f9-0825027650a1
+    [[[terminal4]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/banco-volks-dashboard/volks-front && echo "systemctl start docker"  && echo "docker-compose up"; zsh
+      order = 1
+      parent = child2
+      profile = volks
+      type = Terminal
+      uuid = 670b73f2-5ad7-446c-b036-1738707cddea
+    [[[terminal6]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/banco-volks-dashboard/volks-portal; zsh
+      order = 0
+      parent = child5
+      profile = volks
+      type = Terminal
+      uuid = 4136c7f9-ae4a-405a-b5ec-ca0959db0912
+    [[[terminal7]]]
+      command = cd /dados/projetos/gitlab.accesstage.com.br/banco-volks-dashboard/volks-portal && echo "mvn clean install spring-boot:run -Dspring.profiles.active=develop"; zsh
+      order = 1
+      parent = child5
+      profile = volks
+      type = Terminal
+      uuid = da986a09-3f5a-4f3f-a603-777a06ce9b77
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
