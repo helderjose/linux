@@ -3,11 +3,14 @@ Fedora
 rpm -aq | grep openjdk | sudo xargs yum -y remove
 
 
+rpm -aq | grep openjdk
+exemplo da saída da linha acima: java-1.8.0-openjdk-headless-1.8.0.232.b09-0.fc30.x86_64
+sudo dnf remove java-1.8.0-openjdk-headless-1.8.0.232.b09-0.fc30.x86_64
 
 
 ----- versao antiga -----
 -- 2018 --
-Fedora
+Ubuntu
 desinstalar open jdk
 sudo apt-get purge openjdk-\*
 
