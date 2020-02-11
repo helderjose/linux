@@ -8,11 +8,15 @@ dnf instal pacote.rpm	(instala um programa .rpm)
 dnf upgrade
 dnf clean metadata	(remove cached data).
 
-# remove - desinstalar pacotes
+# ----- dnf Comandos -----
+## remove - desinstalar pacotes
 sudo dnf remove nome_do_pacote
 
+## list - Lista Pacotes
+sudo dnf list installed // lista os pacotes instalados.
+sudo dnf list installed "grubby*" // pesquisa por grubby* nos pacotes instalados.
 
 
------ Erros e soluções -----
+# ----- Erros e soluções -----
 Last metadata expiration check
 execute: sudo dnf clean metadata
