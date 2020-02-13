@@ -1,0 +1,11 @@
+https://shapeshed.com/unix-alias/
+
+colocar no .profile
+alias code.='code .'
+alias npm-run-build='npm run build'
+alias npm-run-serve='npm run serve'
+alias npm-run-server='npm run server'
+alias npm-run-start='npm run start'
+
+
+

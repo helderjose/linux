@@ -1,0 +1,39 @@
+PATH=/data/helder/scripts:$PATH
+
+#---------------
+#----- java -----
+#---------------
+export JAVA_HOME=/opt/jdk-8u181-linux-x64/jdk1.8.0_181
+#export JAVA_HOME=/opt/jdk-8u144-linux-x64/jdk1.8.0_144
+#export JAVA_HOME=/opt/jdk-7u79-linux-x64/jdk1.7.0_79
+PATH=$JAVA_HOME/bin:$PATH
+
+#--------------------
+#----- maven -----
+#--------------------
+# mvn -version
+export M2_HOME=/opt/apache-maven-3.5.0-bin/apache-maven-3.5.0
+export M2=$M2_HOME/bin
+export MAVEN_OPTS="-Xms256m -Xmx2048m"
+PATH=$M2:$PATH
+
+#----------------------------------------
+#----- NVM - Node Version Manager -----
+#----------------------------------------
+# nvm --help
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#--------------------
+#----- exercism -----
+#--------------------
+PATH=/opt/exercism-linux-64bit/exercism:$PATH
+
+export PATH
+
+alias code.='code .'
+alias npm-run-build='npm run build'
+alias npm-run-serve='npm run serve'
+alias npm-run-server='npm run server'
+alias npm-run-start='npm run start'
