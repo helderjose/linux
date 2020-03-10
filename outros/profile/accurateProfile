@@ -39,3 +39,5 @@ alias npm-run-server='npm run server'
 alias npm-run-server:start='npm run server:start'
 alias npm-run-start='npm run start'
 
+alias vbm=VBoxManage
+
