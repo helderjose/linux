@@ -11,73 +11,6 @@
     [[[window0]]]
       parent = ""
       type = Window
-  [[New Layout]]
-    [[[child0]]]
-      fullscreen = False
-      last_active_window = True
-      maximised = True
-      order = 0
-      parent = ""
-      position = 0:0
-      size = 1366, 704
-      title = accurate@localhost: /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/diagnostic-new
-      type = Window
-    [[[child1]]]
-      active_page = 0
-      labels = None, None
-      last_active_term = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a, 9a01ed6d-17ab-4e57-91ce-c4084d1dde23
-      order = 0
-      parent = child0
-      type = Notebook
-    [[[child2]]]
-      order = 0
-      parent = child1
-      position = 331
-      ratio = 0.501515151515
-      type = VPaned
-    [[[child4]]]
-      order = 1
-      parent = child2
-      position = 164
-      ratio = 0.5
-      type = VPaned
-    [[[child7]]]
-      order = 1
-      parent = child1
-      position = 330
-      ratio = 0.5
-      type = VPaned
-    [[[terminal3]]]
-      order = 0
-      parent = child2
-      profile = default
-      type = Terminal
-      uuid = 50231feb-73f1-49f4-8c74-ff0f0ba0ce4a
-    [[[terminal5]]]
-      order = 0
-      parent = child4
-      profile = default
-      type = Terminal
-      uuid = 89c539fb-628b-4bcd-8fbb-d5a07f7df6e1
-    [[[terminal6]]]
-      order = 1
-      parent = child4
-      profile = default
-      type = Terminal
-      uuid = 5c442c6e-b556-43a4-beb9-08b9040c29e4
-    [[[terminal8]]]
-      command = ""
-      order = 0
-      parent = child7
-      profile = default
-      type = Terminal
-      uuid = 9424bce3-0acb-406c-95ce-a28532774a93
-    [[[terminal9]]]
-      order = 1
-      parent = child7
-      profile = default
-      type = Terminal
-      uuid = 9a01ed6d-17ab-4e57-91ce-c4084d1dde23
   [[accweb]]
     [[[child0]]]
       fullscreen = False
@@ -476,6 +409,51 @@
       profile = volks
       type = Terminal
       uuid = da986a09-3f5a-4f3f-a603-777a06ce9b77
+  [[wifi-password]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 6a9ae278-50a8-4ea0-9bf0-e40ab9a762e2
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 836
+      title = accurate@localhost: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 416
+      ratio = 0.500601684717
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 207
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password;zsh
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 6a9ae278-50a8-4ea0-9bf0-e40ab9a762e2
+    [[[terminal4]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password/net-uno && echo 'npm-run-build';zsh
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 050f8693-26b4-4cca-8598-722117594443
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password/net-uno && echo 'npm-run-server:start';zsh
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 06713400-d0de-4643-945a-20731bab6a38
 [plugins]
 [profiles]
   [[default]]
