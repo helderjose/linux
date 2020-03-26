@@ -1,0 +1,1 @@
+olhar o arquivo "snap.md" da pasta comandos
