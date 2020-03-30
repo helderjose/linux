@@ -270,6 +270,52 @@
       profile = default
       type = Terminal
       uuid = 6b4ec844-b1ce-44ae-bf99-125e401cad14
+  [[technical-visit]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 354bdce3-c24c-4ae9-acef-764ed2645216
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 836
+      title = accurate@localhost: /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/technical-visit
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 416
+      ratio = 0.500601684717
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 207
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/technical-visit && echo 'code.';zsh
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 354bdce3-c24c-4ae9-acef-764ed2645216
+    [[[terminal4]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/technical-visit/net-uno && echo 'npm-run-build';zsh
+      directory = ""
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 04011912-1c03-4c4a-b016-ee66e7f09fbc
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/technical-visit/net-uno && echo 'npm-run-server:start';zsh
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 82c8169a-c16d-4d30-b655-d069cde11d8d
   [[tenda]]
     [[[child0]]]
       fullscreen = False
