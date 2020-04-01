@@ -33,11 +33,12 @@ PATH=/opt/exercism-linux-64bit/exercism:$PATH
 export PATH
 
 alias code.='code .'
+alias kubectl=microk8s.kubectl
 alias npm-run-build='npm run build'
+alias npm-run-dev='npm run dev'
 alias npm-run-serve='npm run serve'
 alias npm-run-server='npm run server'
 alias npm-run-server:start='npm run server:start'
 alias npm-run-start='npm run start'
-
 alias vbm=VBoxManage
 
