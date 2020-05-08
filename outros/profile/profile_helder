@@ -55,6 +55,7 @@ PATH="$PATH:/opt/exercism-linux-64bit/exercism"
 export PATH
 
 alias code.='code .'
+alias do='docker'
 alias doco='docker container'
 alias kubectl=microk8s.kubectl
 alias npm-run-build='npm run build'
