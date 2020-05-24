@@ -1,9 +1,17 @@
+Pesquise por:
+startup applications
+
 Executar comandos durante a inicialização do sistema.
 /etc/init.d/rc.local		Executa imediatamente após o sistema ir ao ar.
 /etc/rc.local			Mesmo do anterior.
 /etc/profile			Executa após o login do usuário. Executa para todos usuários.
 ~/.profile			Usuário específico.
 /etc/bash.bashrc		Executa quando adentramos em determinado ambiente.
+~/.config/autostart
+
+Fedora 30
+~/.config/autostart
+Tire a permissão de leitura (r) sudo chmod 220
 
 
 
