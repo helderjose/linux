@@ -192,6 +192,25 @@
       profile = default
       type = Terminal
       uuid = 9654dd6c-40c8-411b-ab56-806fa2d7013f
+  [[dashboard]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 3ee5b892-b6b6-4507-8e9d-b441a3920d8b
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 836
+      title = accurate@localhost: ~
+      type = Window
+    [[[terminal1]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/core/dashboard;zsh
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 3ee5b892-b6b6-4507-8e9d-b441a3920d8b
   [[diagnostic]]
     [[[child0]]]
       fullscreen = False
@@ -297,6 +316,25 @@
       profile = default
       type = Terminal
       uuid = 9424bce3-0acb-406c-95ce-a28532774a93
+  [[net-static]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 3a973ea3-4341-434c-8c72-774a9f88c4d3
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 836
+      title = accurate@localhost: ~
+      type = Window
+    [[[terminal1]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net/minha-net-static;zsh
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 3a973ea3-4341-434c-8c72-774a9f88c4d3
   [[sth]]
     [[[child0]]]
       fullscreen = False
