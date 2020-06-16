@@ -133,10 +133,10 @@
       profile = default
       type = Terminal
       uuid = 22178be0-550e-4b8f-b751-fb3a63044750
-  [[dashboard-tecnica]]
+  [[dashboar-tecnica]]
     [[[child0]]]
       fullscreen = False
-      last_active_term = 6a9ae278-50a8-4ea0-9bf0-e40ab9a762e2
+      last_active_term = 6609bcbd-cded-4a91-b364-234381f3bc8e
       last_active_window = True
       maximised = True
       order = 0
@@ -157,27 +157,41 @@
       position = 207
       ratio = 0.5
       type = VPaned
+    [[[child4]]]
+      order = 0
+      parent = child3
+      position = 798
+      ratio = 0.500313479624
+      type = HPaned
     [[[terminal2]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password;zsh
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/dashboard-tecnica && echo 'code.';zsh
       order = 0
       parent = child1
       profile = default
       type = Terminal
-      uuid = 6a9ae278-50a8-4ea0-9bf0-e40ab9a762e2
-    [[[terminal4]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password/net-uno && echo 'npm-run-build';zsh
+      uuid = 6609bcbd-cded-4a91-b364-234381f3bc8e
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/dashboard-tecnica && echo 'npm-run-serve';zsh
+      directory = ""
       order = 0
-      parent = child3
+      parent = child4
       profile = default
       type = Terminal
-      uuid = 050f8693-26b4-4cca-8598-722117594443
-    [[[terminal5]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password/net-uno && echo 'npm-run-server:start';zsh
+      uuid = bdb2f125-fe11-426b-b2bd-4396b2be5c3d
+    [[[terminal6]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/dashboard-tecnica && echo 'Tip: comandos de build';zsh
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 27590296-2d96-4623-bde7-9879e0a3ba2f
+    [[[terminal7]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks && echo 'npm-run-dev npm-run-start';zsh
       order = 1
       parent = child3
       profile = default
       type = Terminal
-      uuid = 06713400-d0de-4643-945a-20731bab6a38
+      uuid = 9654dd6c-40c8-411b-ab56-806fa2d7013f
   [[diagnostic]]
     [[[child0]]]
       fullscreen = False
@@ -270,7 +284,7 @@
       type = Terminal
       uuid = 89c539fb-628b-4bcd-8fbb-d5a07f7df6e1
     [[[terminal6]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks && echo 'npm-run-dev npm-run-start';zsh
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/mocks && echo 'npm-run-dev npm-run-start';zsh
       order = 1
       parent = child4
       profile = default
@@ -500,6 +514,51 @@
       profile = volks
       type = Terminal
       uuid = da986a09-3f5a-4f3f-a603-777a06ce9b77
+  [[wifi-password]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 6a9ae278-50a8-4ea0-9bf0-e40ab9a762e2
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 836
+      title = accurate@localhost: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 416
+      ratio = 0.500601684717
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 207
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password;zsh
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 6a9ae278-50a8-4ea0-9bf0-e40ab9a762e2
+    [[[terminal4]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password/net-uno && echo 'npm-run-build';zsh
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 050f8693-26b4-4cca-8598-722117594443
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password/net-uno && echo 'npm-run-server:start';zsh
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 06713400-d0de-4643-945a-20731bab6a38
 [plugins]
 [profiles]
   [[default]]
