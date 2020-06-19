@@ -33,16 +33,18 @@ PATH=/opt/exercism-linux-64bit/exercism:$PATH
 export PATH
 
 alias code.='code .'
+alias gad='git add'
+alias gb='git branch'
+alias gbr='git branch -r'
+alias gcm='git commit -m'
+alias gck='git checkout'
+alias gdt='git difftool'
 alias gst='git status'
 alias gstu='git status -u'
 alias gl='git log'
 alias glg='git log --graph'
-alias gb='git branch'
-alias gbr='git branch -r'
-alias gcm='git commit -m'
 alias gp='git pull'
 alias gps='git push'
-alias gck='git checkout'
 alias kubectl=microk8s.kubectl
 alias npm-run-build='npm run build'
 alias npm-run-dev='npm run dev'
