@@ -303,7 +303,7 @@
       type = Terminal
       uuid = 89c539fb-628b-4bcd-8fbb-d5a07f7df6e1
     [[[terminal6]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new/mocks && echo 'npm-run-dev npm-run-start';zsh
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks && echo 'npm-run-dev npm-run-start';zsh
       order = 1
       parent = child4
       profile = default
