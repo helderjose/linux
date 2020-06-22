@@ -34,17 +34,15 @@ export PATH
 
 alias code.='code .'
 alias gad='git add'
-alias gb='git branch'
-alias gbr='git branch -r'
-alias gcm='git commit -m'
-alias gck='git checkout'
+alias gcom='git commit -m'
 alias gdt='git difftool'
-alias gst='git status'
-alias gstu='git status -u'
 alias gl='git log'
 alias glg='git log --graph'
-alias gp='git pull'
+alias glno='git log --name-only'
+alias glns='git log --name-status'
+alias gpl='git pull'
 alias gps='git push'
+alias gst='git status'
 alias kubectl=microk8s.kubectl
 alias npm-run-build='npm run build'
 alias npm-run-dev='npm run dev'
@@ -53,5 +51,4 @@ alias npm-run-server='npm run server'
 alias npm-run-server:start='npm run server:start'
 alias npm-run-start='npm run start'
 alias vbm=VBoxManage
-
 
