@@ -20,3 +20,6 @@ wget <file.ext> -O /path/to/folder/file.ext
 -P is prefix where it will download the file in the directory
 
 wget <file.ext> -P /path/to/folder
+
+
+wget -c -O https://embed-fastly.wistia.com/deliveries/ac5bc7806b4281b958f740361f05d47c30b12c27.m3u8 /home/helder/Downloads/nlw/03-08.m3u8
