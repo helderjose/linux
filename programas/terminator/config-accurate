@@ -335,6 +335,51 @@
       profile = default
       type = Terminal
       uuid = 3a973ea3-4341-434c-8c72-774a9f88c4d3
+  [[scheduling]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = e326334b-70a8-4b4d-9338-eaeb2e3d671e
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:27
+      size = 1600, 836
+      title = accurate@localhost: /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/scheduling
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 416
+      ratio = 0.500601684717
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 207
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/scheduling;zsh
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = e326334b-70a8-4b4d-9338-eaeb2e3d671e
+    [[[terminal4]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/scheduling && echo 'npm-run-serve';zsh
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = f4237cd9-7a81-4483-bb34-bb64d4d5c5cd
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks  && echo 'npm-run-dev npm-run-start';zsh
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = aecfd35d-4249-4c54-9541-995a398222ee
   [[sth]]
     [[[child0]]]
       fullscreen = False
