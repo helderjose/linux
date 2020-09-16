@@ -1,4 +1,5 @@
 [global_config]
+  suppress_multiple_term_dialog = True
 [keybindings]
 [layouts]
   [[default]]
@@ -195,22 +196,87 @@
   [[dashboard]]
     [[[child0]]]
       fullscreen = False
-      last_active_term = 3ee5b892-b6b6-4507-8e9d-b441a3920d8b
       last_active_window = True
       maximised = True
       order = 0
       parent = ""
-      position = 0:0
+      position = 0:27
       size = 1600, 836
       title = accurate@localhost: ~
       type = Window
-    [[[terminal1]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/core/dashboard;zsh
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = aa1642f8-2aae-45eb-9264-da7190d6b101, b4dcdaa9-0488-4b67-854f-bc329f8303f6
       order = 0
       parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 539
+      ratio = 0.680555555556
+      type = VPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 256
+      ratio = 0.479400749064
+      type = VPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 797
+      ratio = 0.500313873195
+      type = HPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 396
+      ratio = 0.5
+      type = VPaned
+    [[[terminal10]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new && echo 'npm-run-serve';zsh
+      order = 0
+      parent = child9
       profile = default
       type = Terminal
-      uuid = 3ee5b892-b6b6-4507-8e9d-b441a3920d8b
+      uuid = deda933f-ac84-496d-ac91-b5d778606fbd
+    [[[terminal11]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/dashboard-tecnica && echo 'npm-run-serve';zsh
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = b4dcdaa9-0488-4b67-854f-bc329f8303f6
+    [[[terminal4]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/core/dashboard;zsh
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = aa1642f8-2aae-45eb-9264-da7190d6b101
+    [[[terminal5]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/core/dashboard && echo 'npm-run-serve';zsh
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 251991fe-6cd3-4e1e-a5bb-5c6e3a880234
+    [[[terminal7]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks && echo 'npm-run-dev npm-run-start';zsh
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 5c1e2ba9-24e5-4aa4-882d-830f68b353ae
+    [[[terminal8]]]
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks && echo 'npm-run-dev npm-run-start';zsh
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 5a46f8ea-ac0a-4711-8a2c-a24dcc85eb97
   [[diagnostic]]
     [[[child0]]]
       fullscreen = False
@@ -360,7 +426,7 @@
       ratio = 0.5
       type = VPaned
     [[[terminal2]]]
-      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/scheduling;zsh
+      command = cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/scheduling && echo 'code.';zsh
       order = 0
       parent = child1
       profile = default
@@ -493,51 +559,21 @@
   [[trustion]]
     [[[child0]]]
       fullscreen = False
+      last_active_term = da3c3b17-15c1-4c96-ad93-14cbeb0ffa6f
       last_active_window = True
-      maximised = True
+      maximised = False
       order = 0
       parent = ""
-      position = 1280:27
-      size = 1600, 836
-      title = accurate@blackout: /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-model
+      position = 50:77
+      size = 654, 453
+      title = accurate@localhost: ~
       type = Window
-    [[[child1]]]
-      active_page = 1
-      labels = None, None
-      last_active_term = 4cba3c5d-c03b-4c72-8a6d-283fde8dab52, 498651e8-3b0b-4b1c-91d4-68374ecdb20a
+    [[[terminal1]]]
       order = 0
       parent = child0
-      type = Notebook
-    [[[child3]]]
-      order = 1
-      parent = child1
-      position = 396
-      ratio = 0.5
-      type = VPaned
-    [[[terminal2]]]
-      command = cd /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-portal && echo 'npm run httpserver';zsh
-      directory = true
-      order = 0
-      parent = child1
       profile = default
       type = Terminal
-      uuid = 4cba3c5d-c03b-4c72-8a6d-283fde8dab52
-    [[[terminal4]]]
-      command = cd /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-model && echo 'mvn clean install';zsh
-      directory = false
-      order = 0
-      parent = child3
-      profile = default
-      type = Terminal
-      uuid = 498651e8-3b0b-4b1c-91d4-68374ecdb20a
-    [[[terminal5]]]
-      command = cd /dados/projetos/gitlab.accesstage.com.br/trustion/trustion-servicos && echo 'mvn clean install spring-boot:run -Dspring.profiles.active=develop';zsh
-      directory = false
-      order = 1
-      parent = child3
-      profile = default
-      type = Terminal
-      uuid = 06432223-c15a-452e-a8de-3de14026be1a
+      uuid = da3c3b17-15c1-4c96-ad93-14cbeb0ffa6f
   [[volks]]
     [[[child0]]]
       fullscreen = False
