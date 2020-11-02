@@ -1,0 +1,9 @@
+https://www.linuxdescomplicado.com.br/2017/05/saiba-como-baixar-videos-do-youtube-usando-o-vlc-media-player.html
+
+media -> open capture device -> network (cole a url do video) -> play
+tools -> codec information -> (copie a url e cole no navegador)
+BD no video -> save video as (.mp4)
+
+
+
+Baixar video do youtube com vlc
