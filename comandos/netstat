@@ -8,3 +8,13 @@ sudo netstat -pnlt | grep ':3000'
 
 man netstat
 netstat --help
+
+
+
+
+------------------------
+Parar node js
+matar node js
+
+sudo netstat -pnlt | grep ':3000'
+kill -9 <numero-processo>
