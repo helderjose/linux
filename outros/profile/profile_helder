@@ -55,8 +55,10 @@ PATH="$PATH:/opt/exercism-linux-64bit/exercism"
 export PATH
 
 alias code.='code .'
+# docker
 alias do='docker'
 alias doco='docker container'
+# git
 alias gad='git add'
 alias gbr='git branch'
 alias gbrr='git branch -r'
@@ -71,7 +73,9 @@ alias glp='git log -p'
 alias gpl='git pull'
 alias gps='git push'
 alias gst='git status'
+# kubernetes
 alias kubectl=microk8s.kubectl
+# npm
 alias npm-run-build='npm run build'
 alias npm-run-dev='npm run dev'
 alias npm-run-serve='npm run serve'
