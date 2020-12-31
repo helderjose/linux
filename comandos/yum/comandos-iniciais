@@ -1,0 +1,27 @@
+
+
+
+----- list  -----
+yum list --help
+
+yum list nomeDoPacote (procura por pacotes com nomeDoPacote* instalados e disponíveis)
+yum list libaio  // libio é o nome de um pacote
+
+yum list installed // esse comando demora porque lista todos pacotes instalados.
+yum list installed | grep httpd
+
+
+----- repolist -----
+yum repolist all
+
+----- info -----
+yum info package_name (informações sobre o pacote)
+yum info httpd
+
+----- update  -----
+sudo yum update -y
+
+
+
+
+

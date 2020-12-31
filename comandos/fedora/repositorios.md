@@ -1,10 +1,5 @@
-# yum.repos.d
-yum.repos.d é um diretório onde ficam os .repo
-cd /etc/yum.repos.d
-
-# .repo
-São arquivos de texto com informações sobre o repositório, como
-Nome, baseurl e etc
+# yum
+tem uma pasta sobre yum
 
 
 

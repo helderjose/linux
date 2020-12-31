@@ -58,6 +58,7 @@ alias code.='code .'
 # docker
 alias do='docker'
 alias doco='docker container'
+alias doim='docker image'
 # git
 alias gad='git add'
 alias gbr='git branch'

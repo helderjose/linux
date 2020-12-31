@@ -10,23 +10,6 @@ rpm -ivh nomeDoPacote
 
 
 
-#
-#yum
-#
-
-yum install nomeDoPrograma
-
-yum list nomeDoPacote (procura por pacotes com nomeDoPacote* instalados e disponíveis)
-Exemplo:
-yum list libaio
-Retorno:
-Installed Packages
-libaio.x86_64                                             0.3.107-10.el6
-OracleLinuxServer-201410181705.x86_64/6.6
-Available Packages
-libaio.i686                                               0.3.107-10.el6 
-
-
 
 Open file descriptors
 
