@@ -15,3 +15,14 @@ sudo dnf install snapd
 
 snap --help
 snap --version
+
+
+Instalar programa usando o snpa
+https://snapcraft.io/store
+pesquise por vcl
+
+no botão "install" mostra o comando
+sudo snap install vlc
+
+error: too early for operation, device not yet seeded or device model not acknowledged
+execute novamente que vai.
