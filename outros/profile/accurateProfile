@@ -3,7 +3,8 @@ PATH=/data/helder/scripts:$PATH
 #---------------
 #----- java -----
 #---------------
-export JAVA_HOME=/opt/jdk-8u181-linux-x64/jdk1.8.0_181
+export JAVA_HOME=/opt/jdk-16.0.1_linux-x64_bin/jdk-16.0.1
+#export JAVA_HOME=/opt/jdk-8u181-linux-x64/jdk1.8.0_181
 #export JAVA_HOME=/opt/jdk-8u144-linux-x64/jdk1.8.0_144
 #export JAVA_HOME=/opt/jdk-7u79-linux-x64/jdk1.7.0_79
 PATH=$JAVA_HOME/bin:$PATH
@@ -30,6 +31,14 @@ export NVM_DIR="$HOME/.nvm"
 #--------------------
 PATH=/opt/exercism-linux-64bit/exercism:$PATH
 
+
+#--------------------
+#----- geckodriver -----
+#--------------------
+# geckodriver firefox
+PATH=/opt/geckodriver/geckodriver-v0.29.0-linux64:$PATH
+
+
 export PATH
 
 alias code.='code .'
@@ -44,8 +53,8 @@ alias glg='git log --graph'
 alias glno='git log --name-only'
 alias glns='git log --name-status'
 alias glp='git log -p'
-alias gpl='git pull'
-alias gps='git push'
+alias gpl='echo "helder.goncalves.acc" && echo "#ST@y@tH0m3" && echo "qpfSAmja-_YL51BTRbsG" && git pull'
+alias gps='echo "helder.goncalves.acc" && echo "#ST@y@tH0m3" && echo "qpfSAmja-_YL51BTRbsG" && git push'
 alias gst='git status'
 alias kubectl=microk8s.kubectl
 alias npm-run-build='npm run build'
@@ -56,3 +65,19 @@ alias npm-run-server:start='npm run server:start'
 alias npm-run-start='npm run start'
 alias vbm=VBoxManage
 
+alias cldashboard='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/core/dashboard'
+alias cldiagnostic='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/diagnostic-new'
+alias clglobalassets='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/global-assets'
+alias clmctv='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-clarotv/arealogada'
+alias clmenu='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-docker/ecare-json-menu'
+alias clmocks='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/mocks'
+alias clmondrianvue='cd /data/projetos/git-terceiros/gitdev.net.com.br/designops/mondrian-vue'
+alias clmondrianvanilla='cd /data/projetos/git-terceiros/gitdev.net.com.br/designops/mondrian-vanilla'
+alias clportal='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/portal-mcr-public'
+alias clscheduling='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/scheduling'
+alias clservices='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/services'
+alias clsharedcomponents='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/shared-components'
+alias cltechnicalvisit='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/technical-visit'
+alias clpointchange='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/pages/tecnica/request-point-change'
+alias clremotecontrol='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/minha-clarors/pages/tecnica/request-remote-control'
+alias clwifi='cd /data/projetos/git-terceiros/gitdev.net.com.br/ecare-net-front/tecnica/wifi-password'

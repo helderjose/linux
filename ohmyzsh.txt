@@ -1,0 +1,14 @@
+plugin docker, e auto complete docker.
+https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
+
+~/.zshrc
+plugins=(... docker)
+
+docker auto complete
+
+
+Colocar as seguintes linhas no fim do arquivo .zshrc
+zstyle ':completion:*:*:docker:*' option-stacking yes
+zstyle ':completion:*:*:docker-*:*' option-stacking yes
+
+source ~/.zshrc

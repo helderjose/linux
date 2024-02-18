@@ -11,15 +11,19 @@ https://www.tecmint.com/how-to-check-disk-space-in-linux/
 
 
 
+Comandos básicos:
+df --version
+df --help
+----------------------
+
+
+
+
+
+
 
 # Organizar
-~ sudo fdisk -l /dev/sda
 
-Device     Boot     Start        End    Sectors   Size Id Type
-/dev/sda1  *         2048  117190655  117188608  55,9G 83 Linux
-/dev/sda2       117190656  703129599  585938944 279,4G 83 Linux
-/dev/sda3       703129600  820318207  117188608  55,9G 83 Linux
-/dev/sda4       820318208 1953523711 1133205504 540,4G 83 Linux
 
 ~ df -h
 
@@ -43,15 +47,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda3        55G   39G   14G  74% /home
 
 
-Ver tamanho partição:
-// listar as partições
-~ sudo fdisk -l
 
-Device     Boot     Start        End    Sectors   Size Id Type
-/dev/sda1  *         2048  117190655  117188608  55,9G 83 Linux
-/dev/sda2       117190656  703129599  585938944 279,4G 83 Linux
-/dev/sda3       703129600  820318207  117188608  55,9G 83 Linux
-/dev/sda4       820318208 1953523711 1133205504 540,4G 83 Linux
 
 // passa as partições para ver o espaço
 ~ df -h /dev/sda1 /dev/sda2 /dev/sda3 /dev/sda4

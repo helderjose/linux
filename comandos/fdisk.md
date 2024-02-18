@@ -48,3 +48,29 @@ fdisk /dev/sda
 a   //disable boot flag (toggle a bootable flag)
 1   // /dev/sda1 (supondo que essa é a partição de boot)
 p   //view current partition table (não vai mais ter a flag de boot na partição sda1)
+
+
+
+
+
+# organizar
+~ sudo fdisk -l /dev/sda
+
+Device     Boot     Start        End    Sectors   Size Id Type
+/dev/sda1  *         2048  117190655  117188608  55,9G 83 Linux
+/dev/sda2       117190656  703129599  585938944 279,4G 83 Linux
+/dev/sda3       703129600  820318207  117188608  55,9G 83 Linux
+/dev/sda4       820318208 1953523711 1133205504 540,4G 83 Linux
+
+
+
+
+Ver tamanho partição:
+// listar as partições
+~ sudo fdisk -l
+
+Device     Boot     Start        End    Sectors   Size Id Type
+/dev/sda1  *         2048  117190655  117188608  55,9G 83 Linux
+/dev/sda2       117190656  703129599  585938944 279,4G 83 Linux
+/dev/sda3       703129600  820318207  117188608  55,9G 83 Linux
+/dev/sda4       820318208 1953523711 1133205504 540,4G 83 Linux

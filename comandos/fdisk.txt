@@ -1,0 +1,25 @@
+fdisk --version
+fdisk --help
+
+
+# listar discos, pendrive e etc
+sudo fdisk -l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+palvras para pesquisa
+listar partições
+listar discos
+listar pendrive

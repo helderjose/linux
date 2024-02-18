@@ -1,0 +1,18 @@
+ping 192.168.57.140
+
+# Ping usando o nome do pc
+
+/etc/hosts
+  - coloque o ip e o nome do host.
+      obs: se o ip mudar vai parar de funcionar
+
+192.168.57.146 raspberrypi
+salve o arquivo.
+ping raspberrypi
+----------------------------------------------------------
+
+
+Preciso pesquisar como usar ping sem mexer no arquivo hosts
+O roteador (apartamento 32) é o servidor DHCP (manda o ip e a máscara para o dispositivo).
+O roteador do apartamento tem opção de DNS.
+Acho que preciso do servidor dns para dar ping pelo nome sem alterar o arquivo hosts
