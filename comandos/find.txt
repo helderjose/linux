@@ -35,6 +35,9 @@ find . -name "meu-arquivo" -delete                  //apenas para arquivo
 find . -type d -iname "teste" -execdir rm -rf {} +  //deleta a pasta e os arquivos (sem pedir confirmação)
 find . -type d -iname "teste" -exec rm -rf {} +     //deleta a pasta e os arquivos (sem pedir confirmação)
 
+--- deletar as pastas node_modules
+find . -type d -name "node_modules" -exec rm -rf {} +
+
 
 -----------------------------------------
 ----- deletar arquivo pela extensão -----
@@ -42,6 +45,9 @@ find . -type d -iname "teste" -exec rm -rf {} +     //deleta a pasta e os arquiv
 
 find . -name "*.js" // lista os arquivo .js a partir do diretório atual
 find . -name "*.js" -delete  // deleta os arquivos listados
+
+--- deletar vários arquivos ---
+find . -type f \( -name "*.js" -or -name "*.jsx" -or -name "*.txt" \) -delete
 
 
 --------------------
