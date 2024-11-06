@@ -28,6 +28,15 @@ find . -not -iname "*FiLe-Na*"   // < -not sem uma palavra específica no nome (
 find . \! -iname "*FiLe-Na*"    // < \! (negação) mesma coisa do -not >
 find . -name “*.txt”  //procura pela extensão .txt
 
+
+========================================
+========== expressão regular ==========
+========================================
+
+ainda estou fazendo
+find . -type d -name "node_modules"
+find . -type d -regex ".*node_modules"
+
 ---------------------------------------------
 ----- deletar arquivos/pastas pelo nome -----
 ---------------------------------------------
