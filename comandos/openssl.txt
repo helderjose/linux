@@ -1,0 +1,39 @@
+https
+https with node, self signed certificates, and public key cryptography.
+
+NO repositório de nodeJS tem um exemplo de https que usa certificado.
+
+https://www.openssl.org/
+  Open source tool to create certificate.
+  Apenas para funcionar https no localhost, apenas para desenvolvimento.
+
+  - linux e mac
+      Provavelmente o ssl já está instalado.
+
+  - windows
+    Se você tiver o https://gitforwindows.org/ instalado no windows, provavelmente
+    já terá o ssl instalado também.
+
+Gerar o certificado
+  openssl version
+  openssl help
+
+  openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365
+    <-x509> to tell us that it's a self signed certificat
+
+    <-newkey>
+      contains that secret used in our encryption. This is
+      alto known as the private key
+
+    <rsa> RSA encryption format
+
+    <-keyout key.pem> the private key
+
+    <-out cert.pem>
+      the certificate, this certificate which is public and which
+      our brower will check the ownership of our server.
+
+Dicas:
+Não devemos gerar um certificado que dure para sempre, porque se esse certificado
+for roubado o hacker terá acesso aos dados.
+
