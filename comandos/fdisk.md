@@ -1,11 +1,5 @@
-man fdisk
-fdisk --help
 
-# Listar Partições
-The '-l' argument stand for listing all partitions.
-fdisk -l
-fdisk -l /dev/sda
-sudo fdisk /dev/sda1
+
 
 
 # Check all Available fdisk Commands (fdisk Command Mode)

@@ -1,9 +1,16 @@
+man fdisk
+
 fdisk --version
 fdisk --help
 
 
-# listar discos, pendrive e etc
+# listar discos, pendrive, partições e etc
+
+The '-l' argument stand for listing all partitions.
 sudo fdisk -l
+fdisk -l /dev/sda
+sudo fdisk /dev/sda1
+--------------------------------------------
 
 
 
