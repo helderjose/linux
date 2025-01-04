@@ -1,3 +1,10 @@
+arquivos importantes fazer backup para agilizar formação
+
+~/.giconfig
+~/.git-credentials
+~/.ssh
+----------------------------------------------------
+
 instalação
 
 Fedora
