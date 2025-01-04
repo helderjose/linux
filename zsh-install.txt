@@ -1,0 +1,27 @@
+https://www.zsh.org/
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+	- instalação do zsh está nesse link
+	
+
+echo $SHELL
+
+Fedora
+sudo dnf install zsh
+zsh --version
+	zsh 5.9 (x86_64-redhat-linux-gnu)
+
+sudo chsh $USER
+	Changing shell for accurate.
+	New shell [/bin/bash]: /bin/zsh
+	Shell changed.
+	Fazer logout
+
+echo $SHELL
+	/bin/bash
+
+
+arquivos do zsh
+~/.zshrc
+~/.zsh_history
+
+Próximo posso: instalar o Oh My Zsh se quiser.

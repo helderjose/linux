@@ -1,0 +1,8 @@
+Passo anterior: instalar o zsh.
+
+https://ohmyz.sh/
+Precisa instalar o zsh antes.
+
+Arquivos gerados na instalação
+~/.zshrc
+

@@ -1,0 +1,9 @@
+instalação
+
+Fedora
+já veio com o git instalado.
+--------------------------------------
+
+
+ssh
+

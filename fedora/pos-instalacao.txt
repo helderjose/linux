@@ -3,3 +3,16 @@ dnf install kernel-devel dkms kernel-headers
 dnf -y install gcc automake make kernel-headers kernel-devel perl
 
 swap em arquivo.
+
+programas
+Dropbox
+terminator
+zsh
+oh my zsh
+nvm
+
+
+meld
+git
+
+

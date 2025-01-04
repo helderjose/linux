@@ -1,0 +1,5 @@
+Adicionar item ao clicar com o BD do mouse 
+/Home/Templates
+	- criar um arquivo de texto aqui e ele vai aparecer como opção.
+
+/home/accurate/.local/share

@@ -1,0 +1,6 @@
+usb
+/run/media/<user>/<usb device>
+------------------------------------
+
+Versão sistema
+cat /etc/os-release
