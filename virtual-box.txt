@@ -1,0 +1,26 @@
+Fedora 41
+sudo /sbin/vboxconfig
+	- precisa instalar os pacotes que está anotado no instalacao-pos.txt
+--------------------------------------------------------
+
+Erro e solução
+VirtualBox can't operate in VMX root mode. Please disable the KVM kernel extension, recompile your kernel and reboot (VERR_VMX_IN_VMX_ROOT_MODE).
+
+Check if KVM is Active
+lsmod | grep kvm
+
+If you see output like this
+kvm_intel             32768  0
+kvm                   86016  1 kvm_intel
+then KVM is active and need to be disabled
+
+
+Unload KVM Kernel Modules (Temporary Fix)
+To disable KVM without rebooting:
+
+sudo rmmod kvm_intel kvm   # For Intel CPUs
+sudo rmmod kvm_amd kvm     # For AMD CPUs
+
+Check if KVM is Active
+lsmod | grep kvm
+This will remove KVM until the next reboot.

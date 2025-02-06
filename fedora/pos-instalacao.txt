@@ -1,6 +1,9 @@
 dnf -y update
-dnf install kernel-devel dkms kernel-headers
-dnf -y install gcc automake make kernel-headers kernel-devel perl
+dnf -y install kernel-devel dkms kernel-headers
+dnf -y install automake dkms gcc kernel-devel kernel-headers make perl 
+
+o virtualbox precisa de alguns desses pacotes.
+---------------------------------
 
 swap em arquivo.
 
@@ -10,9 +13,11 @@ terminator
 zsh
 oh my zsh
 nvm
-
-
-meld
+meld (instalar por linha de comando para poder chamar no git diff toll)
 git
-
-
+visual studio code
+virtual box
+docker
+docker componse
+docker-machine
+gimp (uso para edição simple no trabalho)

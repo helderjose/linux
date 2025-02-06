@@ -1,0 +1,4 @@
+https://learn.microsoft.com/en-us/mem/intune/user-help/microsoft-intune-app-linux#install-microsoft-intune-app-for-ubuntu-desktop
+
+fedora 41
+sudo dnf config-manager addrepo --id=microsoft-rhel9.0-prod-yum --set=name='microsoft-rhel9.0-prod-yum' --set=baseurl='https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/'

@@ -1,0 +1,20 @@
+https://itsfoss.com/best-linux-screen-recorders/
+https://launchpad.net/kazam
+
+
+kazam
+  Mint
+  Ubuntu
+-----------------------------------------------
+
+Fedora
+Gnome's native screencast tool
+ctrl + shift + alt + r
+
+https://docs.fedoraproject.org/en-US/quick-docs/screenrecorder-apps-comparison/
+-------------------------------------------------
+
+
+
+palavras para pesquisa:
+gravar tela, gravar desktop, screen recorder
