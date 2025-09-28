@@ -1,0 +1,5 @@
+openvpn --version
+openvpn --help
+
+openvpn --help | grep "\-\-config"
+

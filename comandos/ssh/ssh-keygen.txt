@@ -1,0 +1,65 @@
+checking for existing  shh keys
+ls -al ~/.ssh
+
+
+
+Generating a new SSH key and adding it to the ssh-agent
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+gitlab
+https://git.acclabs.com.br/help/ssh/index.md#ed25519-ssh-keys
+---------------------------------------------------------------
+
+
+github
+cd ~/.ssh
+ls -al
+ssh-keygen -t ed25519 -C "helderjosemelo@gmail.com"
+passphrase: PQy7$9@
+---------------------------------------
+
+CCR Azure
+cd ~/.ssh
+ls -al
+
+esse não funcionou
+ssh-keygen -t ed25519 -C "heldergoncalves.accurate@grupoccr.com.br"
+	Enter file in which to save the key (/home/accurate/.ssh/id_ed25519): ed25519-ccr-azure
+cat ed25519-ccr-azure.pub
+	
+ssh-keygen -t rsa -b 4096 -m PEM -C "heldergoncalves.accurate@grupoccr.com.br"
+	Enter file in which to save the key (/home/accurate/.ssh/id_ed25519): rsa-ccr-azure
+passphrase: Mz8&ST348Z
+cat rsa-ccr-azure.pub
+
+na Azure
+User settings -> ssh public keys -> add (colar a saída do cat)
+-------------------------------
+
+claro - git lab
+cd ~/.ssh
+ls -al
+ssh-keygen -t ed25519 -C "helder.goncalves.acc"
+enter file in whitch to sabe the key: id_ed25519-claro-gitlab
+passphrase: #ST@y@tH0m3
+----------------------------------------------
+
+Accurate - git lab
+cd ~/.ssh
+ls -al
+ssh-keygen -t ed25519 -C "helder.goncalves@accurate.com.br"
+  Enter file in which to save the key (/home/accurate/.ssh/id_ed25519): ed25519-acc-gitlab
+passphrase: pomarola
+
+ls -al
+    -rw-r--r--.  1 accurate accurate  102 Jun  4  2024 id_ed25519-claro-gitlab.pub
+cat id_ed25519-claro-gitlab.pub
+
+no gitlab
+edit profile -> ssh keys (colar a saida do cat)
+-----------------------------------------------------
+
+
