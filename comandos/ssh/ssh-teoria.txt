@@ -1,0 +1,41 @@
+Se tiver muitas chaves em ~/.ssh, o cliente não consegu conectar no destino
+porque o ssh vai tentando as chaves, então as tentativas se esgotam e é bloqueado.
+
+O servidor tem um limite de, geralmente, 6 tentativas de autenticação. O seu
+cliente SSH tenta cada uma dessas chaves, e todas são rejeitadas, o
+ que faz com que o servidor encerre a conexão por segurança.
+
+conectar "ignorando as keys"
+ssh -o PreferredAuthentications=password helderlab@laptoph
+----------------------
+
+----- problma quando tem muitas chaves -----
+criar o arquivo
+~/.ssh/config
+com o segunte conteúdo
+
+Host laptoph-alias
+  HostName laptoph
+  User helderlab
+  IdentityFile ~/.ssh/laptoph-rsa
+  IdentitiesOnly yes
+
+
+copiar a chave para a máquina desejada
+ssh-copy-id -i ~/.ssh/laptoph-rsa.pub laptoph-alias
+
+conectar via ssh
+----------------------
+
+----- declarar várias chaves no arquivo "config" -----
+Host laptoph          # ip ou nome dado no /etc/hosts
+  HostName laptoph    # ip ou nome dado no /etc/hosts
+  User helderlab
+  IdentityFile ~/.ssh/laptoph-rsa
+  IdentitiesOnly yes
+
+Host rasp
+  HostName rasp    # ip ou nome dado no /etc/hosts
+  User pi
+  IdentityFile ~/.ssh/raspberry-rsa
+  IdentitiesOnly yes

@@ -1,0 +1,21 @@
+Não entrar em suspensão ao abaixar a tela
+
+sudo nano /etc/systemd/logind.conf
+--- fedora workstation 42 -----
+Não tinha a opção de não fazer nada ao abaixar a tela na interface gráfica.
+Funcionou.
+
+verifique se existe a pasta "logind.conf.d"
+Se não existir, crie
+sudo mkdir -p /etc/systemd/logind.conf.d/
+
+Crie o arquivo e edite com nano
+sudo nano /etc/systemd/logind.conf.d/lid.conf
+
+conteúdo para colocar no arquivo:
+[Login]
+HandleLidSwitch=ignore
+
+sudo systemctl restart systemd-logind.service
+
+---------------------------------------------------------------------

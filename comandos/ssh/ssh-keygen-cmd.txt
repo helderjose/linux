@@ -10,7 +10,7 @@ Máquinas: laptop e raspberrypi
 
 
 
-+++++ Gerar as chaves ssh.
++++++ Gerar as chaves ssh. conectar via ssh sem pedir senha +++++
 no laptop execute:
 cd ~/.ssh
 ssh-keygen -t rsa

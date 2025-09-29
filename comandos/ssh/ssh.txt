@@ -29,6 +29,10 @@ systemctl status sshd.service		//verifica status
 sudo systemctl enable sshd.service	//To configure the sshd daemon to start automatically at boot time
 sudo systemctl disable sshd.service	//To configure the sshd daemon to stop automatic initialization at boot time
 
+Se errar muito a senha e o usuário for bloqueado, basta reiniciar o ssh na máquina
+que você está tentando conectar
+sudo systemctl restart sshd.service
+
 
 
 ----------------------------------------------------------------------
