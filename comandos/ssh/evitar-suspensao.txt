@@ -1,0 +1,18 @@
+----- Evitar Suspensão por Inatividade -----
+
+Ainda não tentei para ver se funciona
+sudo nano /etc/ssh/sshd_config
+
+Adicione as seguintes linhas no final do arquivo:
+
+ClientAliveInterval 300
+ClientAliveCountMax 2
+
+ClientAliveInterval 300: Define um intervalo de 300 segundos (5 minutos) em que o servidor envia um "keep-alive" para o cliente. Se o cliente não responder, o servidor assume que a conexão está morta.
+
+ClientAliveCountMax 2: O servidor envia até duas mensagens keep-alive se o cliente não responder.
+
+
+Após editar o arquivo, reinicie o serviço SSH:
+sudo systemctl restart sshd
+----------------------------------------------------

@@ -14,6 +14,17 @@ Opções:
 
 
 
+--------------------
+----- exemplos ----
+--------------------
+tree -L 2 pasta-alvo
+
+----- salvar em um arquivo -----
+tree -L 2 pasta-alvo > arquivo-saida.txt
+
+----- ignorar uma pasta -----
+tree -L 2 -I "pasta-para-ignorar-1|ignorar-2" pasta-alvo
+
 
 --- para baixo são palavras para ajudar na pesquisa -----
 ver a quantidade de diretorios,

@@ -1,6 +1,8 @@
 https://www.zsh.org/
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+https://github.com/ohmyzsh/ohmyzsh
 	- instalação do zsh está nesse link
+	- instalar o zsh e depois o oh
 	
 
 echo $SHELL
